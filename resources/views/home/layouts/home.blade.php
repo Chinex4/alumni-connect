@@ -119,36 +119,24 @@
                                     <a href="{{ route('index') }}">Home</a>
                                 </li>
                                 <li><a href="{{ route('about') }}">About</a></li>
-                                <li><a href="event.html">Event</a></li>
-                                <li>
-                                    <a href="blog.html">Blog</a>
-                                </li>
+                                <li><a href="{{ route('event') }}">Event</a></li>
+                                
                                 <li class="has-submenu menu-item-depth-0">
                                     <a href="#">Pages</a>
 
                                     <ul class="sub-menu">
-                                        <li class="has-submenu">
-                                            <a href="gallery.html">Gallery</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="gallery.html">Gallery</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-album.html">Single Album</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="committee.html">Committee</a></li>
-                                        <li><a href="directory.html">Directory</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="career.html">Career</a></li>
+                                        
+                                        <li><a href="{{ route('committee') }}">Committee</a></li>
+                                        <li><a href="{{ route('directory') }}">Directory</a></li>
+                                        <li><a href="{{ route('register') }}">Register</a></li>
+                                        <li><a href="{{ route('career') }}">Career</a></li>
                                         <li>
-                                            <a href="typography.html">Typography</a>
+                                            <a href="{{ route('typography') }}">Typography</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact</a>
+                                    <a href="{{ route('contact') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -239,7 +227,7 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 text-center">
+                        <div class="text-center col-lg-12">
                             <div class="footer-bottom-text">
                                 <p>© {{ date('Y') }} AlumniConnect, All Rights Reserved.</p>
                             </div>

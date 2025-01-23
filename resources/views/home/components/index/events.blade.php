@@ -25,13 +25,13 @@
                                                     <div class="event-countdown-counter" data-date="2024/9/10"></div>
                                                     <p>Remaining</p>
                                                 </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get
+                                                <h3><a href="single-{{ route('event') }}">We are going to arrange a get
                                                         together!</a></h3>
                                                 <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
                                                     elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                                     aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
                                                     laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join
+                                                <a href="single-{{ route('event') }}" class="btn btn-brand btn-brand-dark">join
                                                     with us</a>
                                             </div>
                                         </div>
@@ -60,13 +60,13 @@
                                                     <div class="event-countdown-counter" data-date="2018/9/10"></div>
                                                     <p>Remaining</p>
                                                 </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get
+                                                <h3><a href="single-{{ route('event') }}">We are going to arrange a get
                                                         together!</a></h3>
                                                 <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
                                                     elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                                     aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
                                                     laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join
+                                                <a href="single-{{ route('event') }}" class="btn btn-brand btn-brand-dark">join
                                                     with us</a>
                                             </div>
                                         </div>
@@ -95,13 +95,13 @@
                                                     <div class="event-countdown-counter" data-date="2025/9/10"></div>
                                                     <p>Remaining</p>
                                                 </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get
+                                                <h3><a href="single-{{ route('event') }}">We are going to arrange a get
                                                         together!</a></h3>
                                                 <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
                                                     elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                                     aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
                                                     laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join
+                                                <a href="single-{{ route('event') }}" class="btn btn-brand btn-brand-dark">join
                                                     with us</a>
                                             </div>
                                         </div>

@@ -8,7 +8,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/career', [HomeController::class, 'career'])->name('career');
+Route::get('/committee', [HomeController::class, 'committee'])->name('committee');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/directory', [HomeController::class, 'directory'])->name('directory');
+Route::get('/event', [HomeController::class, 'event'])->name('event');
+Route::get('/register', [HomeController::class, 'register'])->name('register');
+Route::get('/typography', [HomeController::class, 'typography'])->name('typography');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

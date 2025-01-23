@@ -142,7 +142,7 @@
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="career.html" class="btn btn-brand btn-loadmore">All job list</a>
+                    <a href="{{ route('career') }}" class="btn btn-brand btn-loadmore">All job list</a>
                 </div>
             </div>
         </div>
